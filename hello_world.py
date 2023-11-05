@@ -4,4 +4,7 @@
 Simple "Hello World!" Program
 """
 
-print("Hello World!")
+class Greeting:
+    def __init__:
+        self.message = ("Hello World!")
+        print("Hello World!")
