@@ -6,5 +6,5 @@ Simple "Hello World!" Program
 
 class Greeting:
     def __init__(self):
-        self.message = ("Hello World")
+        self.message = ("Hello World!")
         print(self.message)
