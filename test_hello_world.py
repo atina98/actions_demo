@@ -8,6 +8,7 @@ import unittest
 from hello_world import Greeting
 
 class MyTest(unittest.TestCase):
+    def test_default_greeting_set(self):
     greeting = Greeting()
     self.assertEqual(greeting.message, "Hello World!")
 
