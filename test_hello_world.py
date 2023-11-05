@@ -4,4 +4,12 @@
 Simple "Hello World!" Testing Program
 """
 
-print("Test")
+import unittest
+from hello_world import Greeting
+
+class MyTest(unittest.TestCase):
+    greeting = Greeting()
+    self.assertEqual(greeting.message, "Hello World!")
+
+if __name__ == '__main__':
+    unittest.main()
