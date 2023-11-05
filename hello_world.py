@@ -5,6 +5,6 @@ Simple "Hello World!" Program
 """
 
 class Greeting:
-    def __init__:
+    def __init__(self):
         self.message = ("Hello World!")
         print("Hello World!")
